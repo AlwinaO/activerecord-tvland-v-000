@@ -11,7 +11,7 @@ class Character < ActiveRecord::Base
 
   def build_network
     binding.pry
-    self.shows.build
+
 
   end
 
